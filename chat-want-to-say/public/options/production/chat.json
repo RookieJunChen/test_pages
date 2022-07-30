@@ -1,1 +1,125 @@
-[]
+[
+    { "msgs": ["<img src='options/production/imgs/hi.png'/>"] },
+
+    {
+        "msgs": ["知道今天是什么日子吗？"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["情人节", "七夕", "七夕节"],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": [
+                    "这都没答出来，憨憨滴！",
+                    "\uD83D\uDE18好吧，那我就告诉你好了～"
+                ]
+            }
+        }
+    },
+
+    {
+        "msgs": ["💐💐💐情人节快乐💐💐💐"],
+        "msgInputSpeed": 80
+    },
+
+    {
+        "msgs": ["\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39送你花花\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39"],
+        "msgInputSpeed": 80
+    },
+
+    {
+        "msgs": ["<pre>\uD83C\uDF40\uD83C\uDF40\uD83C\uDF40\uD83C\uDF39\uD83C\uDF40\uD83C\uDF40\uD83C\uDF40\uD83C\uDF39\uD83C\uDF40\uD83C\uDF40\uD83C\uDF40 \\n\uD83C\uDF40\uD83C\uDF40\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF40\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF40\uD83C\uDF40 \\n\uD83C\uDF40\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF40 \\n\uD83C\uDF40\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF40 \\n\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39 \\n\uD83C\uDF40\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF40 \\n\uD83C\uDF40\uD83C\uDF40\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF40\uD83C\uDF40 \\n\uD83C\uDF40\uD83C\uDF40\uD83C\uDF40\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF39\uD83C\uDF40\uD83C\uDF40\uD83C\uDF40 \\n\uD83C\uDF40\uD83C\uDF40\uD83C\uDF40\uD83C\uDF40\uD83C\uDF40\uD83C\uDF39\uD83C\uDF40\uD83C\uDF40\uD83C\uDF40\uD83C\uDF40\uD83C\uDF40</pre>"]
+    },
+
+    {
+        "msgs": ["知道我现在在想什么吗？"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["想我", "我", "黄莞晶", "小黄", "想小黄"],
+                "rejectKeyTexts": ["不知道"],
+                "rejectHitTexts": [
+                    "略略略~"
+                ]
+            }
+        }
+    },
+
+    {
+        "msgs": ["我现在当然是在想timi\uD83D\uDE0D", "我现在当然是在想你啦～\uD83D\uDE0D"],
+        "msgInputSpeed": 80
+    },
+
+    {
+        "msgs": ["我还写成了一封信给你！"],
+        "msgInputSpeed": 80
+    },
+
+
+    {
+        "msgs": ["<letter src='options/production/letters/test.json'/>"],
+        "triggerNextAction": { "type": "componentClose" }
+    },
+
+    { "msgs": ["<img src='options/production/imgs/beach.jpg'/>"] },
+
+    {
+        "msgs": ["还记得这片沙滩吗？"],
+        "msgInputSpeed": 80
+    },
+
+    {
+        "msgs": ["上次没说的话，我这次来说~"],
+        "msgInputSpeed": 80
+    },
+
+    {
+        "msgs": ["黄女士，做我女朋友好吗？"],
+        "msgInputSpeed": 80
+    },
+
+    {
+        "msgs": ["答应请扣1"],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["1", "1!", "好", "好的", "好！", "好的！", "ok", "ok!", "ok！","一", "一!"],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": [
+                    "你说什么？",
+                    "我听不见？",
+                    "噢，你答应啦！好滴好滴！"
+                ]
+            }
+        }
+    },
+
+    {
+        "msgs": ["那从今以后,你就是我女朋友啦！"],
+        "msgInputSpeed": 80
+    },
+
+    {
+        "msgs": [
+            "好啦，后面没有啦！请返回微信~"
+        ],
+        "msgInputSpeed": 80,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["好", "好的"],
+                "rejectKeyTexts": [],
+                "rejectHitTexts": [
+                    "没想到吧！",
+                    "还有个彩蛋！",
+                    "叫你不听话！",
+                    "大黄，去探探路！",
+                    "SPA! SPA!"
+                ]
+            }
+        }
+    }
+
+]
