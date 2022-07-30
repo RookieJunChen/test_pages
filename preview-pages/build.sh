@@ -9,7 +9,7 @@ mkdir $BASE_PATH/dist/birth-want-to-say
 cp $BASE_PATH/index.html $BASE_PATH/dist/
 cp $BASE_PATH/assets/** $BASE_PATH/dist/assets/
 # build chat want to say
-sh $ROOT_PATH/chat-want-to-say/bin/build.sh .env.development
+sh $ROOT_PATH/chat-want-to-say/bin/build.sh development
 cp -r $ROOT_PATH/chat-want-to-say/dist/** $BASE_PATH/dist/chat-want-to-say/
 # build birth want to say
 cp -r $ROOT_PATH/birth-want-to-say/** $BASE_PATH/dist/birth-want-to-say/
