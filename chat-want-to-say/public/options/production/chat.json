@@ -67,17 +67,17 @@
 
     {
         "msgs": ["还记得这片沙滩吗？"],
-        "msgInputSpeed": 160
+        "msgInputSpeed": 100
     },
 
     {
         "msgs": ["上次没说的话，我这次来说~"],
-        "msgInputSpeed": 160
+        "msgInputSpeed": 100
     },
 
     {
         "msgs": ["黄女士，做我女朋友好吗？"],
-        "msgInputSpeed": 200
+        "msgInputSpeed": 160
     },
 
     {
@@ -98,7 +98,7 @@
 
     {
         "msgs": ["那从今以后,你就是我女朋友啦！"],
-        "msgInputSpeed": 120
+        "msgInputSpeed": 140
     },
 
     {
