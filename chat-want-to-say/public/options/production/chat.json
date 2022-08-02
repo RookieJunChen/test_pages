@@ -83,6 +83,11 @@
     },
 
     {
+        "msgs": ["今夜月色真美呀！"],
+        "msgInputSpeed": 120
+    },
+
+    {
         "msgs": ["黄女士，做我女朋友好吗？"],
         "msgInputSpeed": 120
     },
